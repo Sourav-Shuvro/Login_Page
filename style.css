@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    min-height: 100vh;
+    background-image: url(image/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    background-color: transparent;
+    border: 2px solid gray;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px black;
+    width: 400px;
+    border-radius: 20px;
+    padding: 2%;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.user{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.user input{
+    height: 100%;
+    width: 98%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+}
+.pass{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.pass input{
+    height: 100%;
+    width: 98%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px black;
+    font-size: 20px;
+}
+.register p,a{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
